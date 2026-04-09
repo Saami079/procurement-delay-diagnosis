@@ -1,0 +1,8 @@
+Stage,Processing_Time,Waiting_Time,Total_Stage_Time
+Finance Approval,34.64,4.09,38.73
+Procurement Review,28.51,3.27,31.78
+Manager Approval,11.01,3.26,14.28
+Final Approval,10.94,3.26,14.21
+Rework to Finance Approval,0.0,4.0,4.0
+Rework to Manager Approval,0.0,4.0,4.0
+Rework to Procurement Review,0.0,4.0,4.0

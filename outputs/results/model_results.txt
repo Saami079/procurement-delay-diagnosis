@@ -1,0 +1,28 @@
+Features Used:
+- Priority
+- Request_Type
+- Department_Requesting
+- Vendor_Type
+- Request_Amount
+- Complexity_Score
+- System_Load
+- Num_Stages
+- Total_Processing
+- Total_Waiting
+- Max_Stage_Delay
+- Is_High_Value_Request
+- Is_High_Complexity
+
+Confusion Matrix:
+[[655  30]
+ [ 16 299]]
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.98      0.96      0.97       685
+           1       0.91      0.95      0.93       315
+
+    accuracy                           0.95      1000
+   macro avg       0.94      0.95      0.95      1000
+weighted avg       0.95      0.95      0.95      1000
