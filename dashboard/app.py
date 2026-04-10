@@ -751,7 +751,6 @@ with c_row1:
         x="Request_Amount",
         y="Total_TAT",
         color="Complexity_Label",
-        trendline="ols",
         opacity=0.65,
         color_discrete_map={"1": TEAL, "2": BLUE, "3": "#5BC0EB", "4": AMBER, "5": RED},
         labels={
