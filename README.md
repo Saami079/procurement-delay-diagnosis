@@ -1,5 +1,8 @@
 # Diagnosing Bottlenecks in Procurement Approval Processes
 
+## Live Demo
+[Open Interactive Dashboard](https://procurement-bottleneck-dashboard.streamlit.app/)
+
 ## Overview
 
 This project analyzes delays in procurement approval workflows using a data-driven approach.
