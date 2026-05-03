@@ -199,3 +199,7 @@ python src/modeling.py
 ```bash
 streamlit run dashboard/app.py
 ```
+
+## Author
+
+Saami Anware
