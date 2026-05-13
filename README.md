@@ -3,6 +3,7 @@
 ## Live Demo
 [Open Interactive Dashboard](https://procurement-bottleneck-dashboard.streamlit.app/)
 
+
 ## Overview
 
 This project analyzes delays in procurement approval workflows using a data-driven approach.
@@ -14,7 +15,6 @@ It focuses on identifying:
 
 The project combines workflow analysis, bottleneck diagnostics, and predictive modeling to create a complete operational analytics solution.
 
----
 
 ## Problem Statement
 
@@ -33,7 +33,6 @@ This project aims to:
 - quantify delay drivers
 - predict delay risk
 
----
 
 ## Project Structure
 
@@ -56,9 +55,7 @@ Procurement-Bottlenecks/
 │
 └── README.md                
 ```
----
 
----
 
 ## Data Pipeline
 
@@ -72,7 +69,7 @@ The project follows a structured pipeline:
 6. Predictive Modeling  
 7. Dashboard Visualization  
 
----
+
 
 ## Key Components
 
@@ -81,14 +78,13 @@ The project follows a structured pipeline:
 - Includes stage delays, waiting time, rework loops
 - Generates realistic operational variability
 
----
+
 
 ### 2. Exploratory Data Analysis
 - Turnaround time distribution
 - Category-based comparisons
 - Delay prevalence
 
----
 
 ### 3. Bottleneck Analysis
 - Stage-wise delay contribution
@@ -97,7 +93,6 @@ The project follows a structured pipeline:
 - Department and vendor effects
 - Delay concentration
 
----
 
 ### 4. Predictive Modeling
 - Random Forest classifier
@@ -110,7 +105,6 @@ Model performance:
 - ~95% accuracy
 - strong recall for delayed requests
 
----
 
 ### 5. Dashboard
 Interactive Streamlit dashboard for:
@@ -119,7 +113,6 @@ Interactive Streamlit dashboard for:
 - complexity analysis
 - delay risk prediction
 
----
 
 ## Feature Importance
 
@@ -133,7 +126,6 @@ Top drivers of delay:
 
 These features indicate that delays are driven by both workflow structure and request complexity.
 
----
 
 ## Dashboard Preview
 
@@ -149,7 +141,6 @@ These features indicate that delays are driven by both workflow structure and re
 ### Delay Prediction
 ![Prediction](assets/prediction_section.png)
 
----
 
 ## Key Insights
 
@@ -159,7 +150,6 @@ These features indicate that delays are driven by both workflow structure and re
 - External vendors tend to increase delay risk  
 - A single stage often dominates total delay  
 
----
 
 ## Business Value
 
@@ -169,7 +159,7 @@ This project enables:
 - early detection of risky requests
 - better decision-making in approval workflows
 
----
+
 
 ## Technologies Used
 
@@ -180,7 +170,6 @@ This project enables:
 - Scikit-learn
 - Streamlit
 
----
 
 ## How to Run
 
